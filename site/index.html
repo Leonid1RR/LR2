@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Резюме</h1>
+    <form>
+        <div class="form-section">
+            <h2>Общая информация</h2>
+            <div class="form-group">
+                <label for="surname">Фамилия</label>
+                <input type="text" id="surname" name="surname" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Имя</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="patronymic">Отчество</label>
+                <input type="text" id="patronymic" name="patronymic">
+            </div>
+            <div class="form-group">
+                <label for="dob">Дата рождения</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Пол</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Мужской</option>
+                    <option value="female">Женский</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="photo">Фото</label>
+                <input type="file" id="photo" name="photo">
+            </div>
+        </div>
+        <div class="form-section">
+            <h2>Контактная информация</h2>
+            <div class="form-group">
+                <label for="phone">Телефон</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Электронная почта</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="address">Адрес проживания</label>
+                <input type="text" id="address" name="address">
+            </div>
+            <div class="form-group">
+                <label for="city">Город проживания</label>
+                <select id="city" name="city">
+                    <!-- Добавьте опции для выбора города -->
+                </select>
+            </div>
+        </div>
+        <div class="form-section">
+            <h2>Образование</h2>
+            <div class="form-group">
+                <label for="higher-education">Высшее</label>
+                <input type="text" id="higher-education" name="higher-education">
+            </div>
+            <div class="form-group">
+                <label for="secondary-education">Среднее</label>
+                <input type="text" id="secondary-education" name="secondary-education">
+            </div>
+            <div class="form-group">
+                <label for="additional-education">Дополнительное</label>
+                <input type="text" id="additional-education" name="additional-education">
+            </div>
+            <div class="form-group">
+                <label for="courses">Курсы</label>
+                <input type="text" id="courses" name="courses">
+            </div>
+        </div>
+        <div class="form-section">
+            <h2>Карьера</h2>
+            <div class="form-group">
+                <label for="job-1">Место работы 1</label>
+                <input type="text" id="job-1" name="job-1">
+            </div>
+            <div class="form-group">
+                <label for="job-1-start">Дата начала</label>
+                <input type="date" id="job-1-start" name="job-1-start">
+            </div>
+            <div class="form-group">
+                <label for="job-1-end">Дата окончания</label>
+                <input type="date" id="job-1-end" name="job-1-end">
+            </div>
+            <div class="form-group">
+                <label for="job-2">Место работы 2</label>
+                <input type="text" id="job-2" name="job-2">
+            </div>
+            <div class="form-group">
+                <label for="job-2-start">Дата начала</label>
+                <input type="date" id="job-2-start" name="job-2-start">
+            </div>
+            <div class="form-group">
+                <label for="job-2-end">Дата окончания</label>
+                <input type="date" id="job-2-end" name="job-2-end">
+            </div>
+            <div class="form-group">
+                <label for="job-3">Место работы 3</label>
+                <input type="text" id="job-3" name="job-3">
+            </div>
+            <div class="form-group">
+                <label for="job-3-start">Дата начала</label>
+                <input type="date" id="job-3-start" name="job-3-start">
+            </div>
+            <div class="form-group">
+                <label for="job-3-end">Дата окончания</label>
+                <input type="date" id="job-3-end" name="job-3-end">
+            </div>
+        </div>
+        <div class="form-section">
+            <h2>О себе</h2>
+            <div class="form-group">
+                <textarea id="about" name="about" rows="5"></textarea>
+            </div>
+        </div>
+        <div class="form-actions">
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </div>
+    </form>
+</body>
